@@ -1,0 +1,18 @@
+# Unnecessary / large / private data
+google-chrome/
+libreoffice/
+dconf/
+evolution/
+goa-1.0/
+gnome-session/
+pulse/
+nautilus/
+backgrounds/
+user-dirs.*
+configstore/
+mimeapps.list
+systemd/
+go/
+.gtkrc-2.0
+backgrounds
+ghostty/ghostty-shaders/
