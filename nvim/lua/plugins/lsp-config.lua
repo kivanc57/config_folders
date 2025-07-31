@@ -26,24 +26,25 @@ return {
       )
 
       local lspconfig = require("lspconfig")
+      local util = lspconfig.util
 
-      lspconfig.tailwindcss.setup({
-        capabilities = capabilities
-      })
-      lspconfig.ruby_lsp.setup({
+      lspconfig.lua_ls.setup({ capabilities = capabilities })
+      lspconfig.bashls.setup({ capabilities = capabilities })
+      lspconfig.gopls.setup({ capabilities = capabilities })
+      lspconfig.jdtls.setup({
         capabilities = capabilities,
-        cmd = { "/home/typecraft/.asdf/shims/ruby-lsp" }
+        root_dir = util.root_pattern(".git", "mvnw", "gradlew", "pom.xml", "build.gradle"),
       })
-      lspconfig.lua_ls.setup({
-        capabilities = capabilities
-      })
+      lspconfig.pylyzer.setup({ capabilities = capabilities })
+      lspconfig.rust_analyzer.setup({ capabilities = capabilities })
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
       vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
       vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
-      vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, {})
+      vim.keymap.set("n", "<space>rn", vim.lsp.buf.rename, {})
     end,
   },
 }
+
