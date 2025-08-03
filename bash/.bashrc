@@ -9,6 +9,7 @@ eval "$(starship init bash)"
 PS1='[\u@\h \W]\$ '
 
 export VISUAL=nvim
+export EDITOR=nvim
 
 fastfetch
 
