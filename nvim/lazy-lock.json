@@ -31,7 +31,6 @@
   "snacks.nvim": { "branch": "main", "commit": "bc0630e43be5699bb94dadc302c0d21615421d93" },
   "swagger-preview.nvim": { "branch": "master", "commit": "9b9bc21096890a1bd0f221a940d04dbab87a38aa" },
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
-  "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" },
   "vim-test": { "branch": "master", "commit": "fba18e168565f055d4061408ada0f6abd9ea8bbd" },
   "vim-tmux-navigator": { "branch": "master", "commit": "c45243dc1f32ac6bcf6068e5300f3b2b237e576a" },
   "vimux": { "branch": "master", "commit": "04f299e53eb81883da0edea6a57018067f3b4938" }
