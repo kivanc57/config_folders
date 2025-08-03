@@ -16,3 +16,5 @@ go/
 .gtkrc-2.0
 backgrounds
 ghostty/ghostty-shaders/
+dlv/
+
