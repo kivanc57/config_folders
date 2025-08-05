@@ -8,6 +8,7 @@ return {
         auto_install = false,
         ensure_installed = {
           "bash",
+          "tmux",
           "lua",
           "dockerfile",
           "go",
