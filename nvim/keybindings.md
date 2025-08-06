@@ -63,3 +63,4 @@
 | `<leader>fg`       | 🔍 Grep/search across files                 |
 | `<C-n>`            | 📁 Toggle Snacks's **file explorer**        |
 
+
