@@ -31,12 +31,7 @@ return {
       lspconfig.lua_ls.setup({ capabilities = capabilities })
       lspconfig.bashls.setup({ capabilities = capabilities })
       lspconfig.gopls.setup({ capabilities = capabilities })
-      lspconfig.jdtls.setup({
-        capabilities = capabilities,
-        root_dir = util.root_pattern(".git", "mvnw", "gradlew", "pom.xml", "build.gradle"),
-      })
       lspconfig.pylyzer.setup({ capabilities = capabilities })
-      lspconfig.rust_analyzer.setup({ capabilities = capabilities })
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
