@@ -49,6 +49,21 @@
 | `<leader>tl` | `TestLast`   -> Re-run the **last test**                |
 | `<leader>g` | `TestVisit`   -> Reopen the **test file or test output** |
 
+🪲 DAP
+| Keybinding    | Command                                      | Description                    |
+| ------------- | -------------------------------------------- | ------------------------------ |
+| `<leader>ds`  | `require('dap').continue()`                  | DAP: Start/Continue            |
+| `<leader>do`  | `require('dap').step_over()`                 | DAP: Step Over                 |
+| `<leader>di`  | `require('dap').step_into()`                 | DAP: Step Into                 |
+| `<leader>dii` | `require('dap').step_out()`                  | DAP: Step Out                  |
+| `<leader>tb`  | `require('dap').toggle_breakpoint()`         | DAP: Toggle Breakpoint         |
+| `<leader>dr`  | `require('dap').repl.toggle()`               | DAP: Toggle REPL               |
+| `<leader>dc`  | `require('dap').run_to_cursor()`             | DAP: Run to Cursor             |
+| `<leader>dl`  | `require('dap').list_breakpoints()`          | DAP: List Breakpoints          |
+| `<leader>de`  | `require('dap').set_exception_breakpoints()` | DAP: Set Exception Breakpoints |
+| `<leader>dx`  | `require('dap').terminate()`                 | DAP: Terminate Debugging       |
+
+
 
 🍫 SNACKS
 | Keybinding         | Action                                      |
