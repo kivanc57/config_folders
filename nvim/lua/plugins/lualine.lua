@@ -4,7 +4,7 @@ return {
   config = function ()
     require('lualine').setup({
       options = {
-        theme = 'ayu-dark'
+        theme = 'horizon'
       }
     })
   end
