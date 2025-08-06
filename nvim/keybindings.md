@@ -31,23 +31,23 @@
 
 
 ⚙️ AUTOCOMPLETIONS
-| Keybinding  | Action                                               |
-| ----------- | ---------------------------------------------------- |
-| `<C-b>`     | 🔼 Scroll docs **up** (4 lines)                      |
-| `<C-f>`     | 🔽 Scroll docs **down** (4 lines)                    |
-| `<C-Space>` | 🔍 Manually trigger **completion menu**              |
+| Keybinding  | Action                                                |
+| ----------- | ----------------------------------------------------- |
+| `<C-b>`     | 🔼 Scroll docs **up** (4 lines)                       |
+| `<C-f>`     | 🔽 Scroll docs **down** (4 lines)                     |
+| `<C-Space>` | 🔍 Manually trigger **completion menu**               |
 | `<C-e>`     | ❌ Abort/close the **completion menu**                |
 | `<CR>`      | ✅ Confirm selection (or first item if none selected) |
 
 
 ✅ VIM-TEST
-| Keybinding  | Action                                |
-| ----------- | ------------------------------------- |
-| `<leader>t` | Run the **nearest** test              |
-| `<leader>T` | Run **all tests** in current file     |
-| `<leader>a` | Run the **entire test suite**         |
-| `<leader>l` | Re-run the **last test**              |
-| `<leader>g` | Open the **test file or test output** |
+| Keybinding   | Action                                                  |
+| -----------  | ------------------------------------------------------- |
+| `<leader>tt` | `TestNearest`-> Run the **nearest** test                |
+| `<leader>tf` | `TestFile`   -> Run **all tests** in current file       |
+| `<leader>ts` | `TestSuite`  -> Run the **entire test suite**           |
+| `<leader>tl` | `TestLast`   -> Re-run the **last test**                |
+| `<leader>g` | `TestVisit`   -> Reopen the **test file or test output** |
 
 
 🍫 SNACKS
@@ -56,7 +56,7 @@
 | `<leader>sf`       | 📝 Toggle **scratch buffer**                |
 | `<leader>S`        | 📂 Select from existing **scratch buffers** |
 | `<leader>gl`       | 🔍 Open **Lazygit log** for current file    |
-| `<leader>lg`       | 🧑‍💻 Open **Lazygit** (repo-wide)          |
+| `<leader>lg`       | 🧑‍💻 Open **Lazygit** (repo-wide)             |
 | `<C-p>`            | 🔍 Open file **picker** (find files)        |
 | `<leader><leader>` | 🕘 Show **recently opened files**           |
 | `<leader>fb`       | 📑 Open **buffer picker**                   |
